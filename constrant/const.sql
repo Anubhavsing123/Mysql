@@ -1,0 +1,11 @@
+use mydb;
+CREATE TABLE IF NOT EXISTS `user`(
+    ID int not NULL PRIMARY KEY AUTO_INCREMENT,
+    NAME VARCHAR(255) NOT NULL,
+    /*m-1 for */
+    /*EMAIL VARCHAR(255) NOT NULL UNIQUE*/
+    /*m-2 for UNIQUE*/
+    UNIQUE(EMAIL,NAME)
+
+
+)

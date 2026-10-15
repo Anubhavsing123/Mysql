@@ -1,0 +1,7 @@
+use mydb;
+CREATE TABLE IF NOT EXISTS `PASS`(
+    p_id INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT CHECK( age>18 and age<26),
+    jounry_date DATETIME DEFAULT CURRENT_TIMESTAMP
+)
