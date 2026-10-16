@@ -27,6 +27,61 @@
             "name": "Anubhav",
             "username": "Anubhav",
             "database": "mydb"
+        },
+        {
+            "server": "localhost",
+            "port": 3306,
+            "database": "",
+            "username": "root",
+            "password": "",
+            "useSsl": false,
+            "previewLimit": 50,
+            "driver": "SingleStoreDB",
+            "name": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Anubhav",
+            "username": "Anubhav",
+            "database": "Anub"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Anub",
+            "database": "Anub",
+            "username": "Anubhav",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Anub",
+            "database": "mydb",
+            "username": "Anubhav",
+            "askForPassword": true
         }
     ]
 }
