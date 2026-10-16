@@ -1,5 +1,5 @@
 use mydb;
-CREATE TABLE Passengers (
+CREATE TABLE Passengersall (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     age INT NOT NULL,

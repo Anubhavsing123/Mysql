@@ -1,3 +1,5 @@
+use mydb;
+
 INSERT INTO Passengers
 (name, age, category, gender, email, seat)
 VALUES
@@ -67,4 +69,4 @@ VALUES
 ('Avni Singh', 6, 'Child', 'Female', 'avni.singh158@gmail.com', 'F4'),
 ('Ramesh Sharma', 62, 'Adult', 'Male', 'ramesh.sharma159@gmail.com', 'F5'),
 ('Sushma Verma', 58, 'Adult', 'Female', 'sushma.verma160@gmail.com', 'F5');
- UPDATE Passanger SET gender="Male" WHERE id=4;
+ UPDATE Passangers SET gender="Male" WHERE id=4;

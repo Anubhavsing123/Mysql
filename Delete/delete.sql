@@ -1,0 +1,1 @@
+DELETE FROM Passenger WHERE category="Young";
