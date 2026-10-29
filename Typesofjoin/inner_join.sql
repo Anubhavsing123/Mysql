@@ -1,0 +1,1 @@
+SELECT * FROM group_members m JOIN users u ON m.membership_id= u.user_id

@@ -1,0 +1,1 @@
+SELECT * FROM users CROSS JOIN group_members;
